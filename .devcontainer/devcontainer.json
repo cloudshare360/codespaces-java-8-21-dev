@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "8, 11, 17, 21",
+      "jdkDistro": "tem",
+      "installGradle": true,
+      "gradleVersion": "latest",
+      "installMaven: true,
+      "mavenVersion: "latest",
+      "installAnt": true,
+      "antVersion": "latest",
+      "installGroovy": true,
+      "Groovy": "latest"
+    }
+  }
+}
