@@ -2,16 +2,29 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "8, 11, 17, 21",
-      "jdkDistro": "tem",
-      "installGradle": true,
-      "gradleVersion": "latest",
-      "installMaven": true,
-      "mavenVersion": "latest",
-      "installAnt": true,
-      "antVersion": "latest",
-      "installGroovy": true,
-      "Groovy": "latest"
+      "version": "21",
+      "additionalVersions": "8,11,17",
+      "jdkDistro": "tem"
     }
-  }
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter.java": "redhat.java",
+        "editor.formatOnSave.java": true,
+        "[java]": {
+          "editor.defaultFormatter": "redhat.java",
+          "editor.formatOnSave": true
+        }
+      },
+      "extensions": [
+        "VisualStudioExptTeam.vscodeintellicode",
+        "pleiades.java-extension-pack-jdk",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "postCreateCommand": "sdk list java | grep 'installed' && sdk current",
+  // Optional: Use non-root user
 }
