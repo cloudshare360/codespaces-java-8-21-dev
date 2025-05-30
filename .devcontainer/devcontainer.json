@@ -26,7 +26,6 @@
         }
       },
       "extensions": [
-        
         "VisualStudioExptTeam.vscodeintellicode",
         "pleiades.java-extension-pack-jdk",
         "streetsidesoftware.code-spell-checker"
