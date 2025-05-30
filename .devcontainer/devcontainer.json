@@ -2,7 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "8, 11, 17, 21",
+      "version": "11,17,21",
       "jdkDistro": "tem"
     }
   },
