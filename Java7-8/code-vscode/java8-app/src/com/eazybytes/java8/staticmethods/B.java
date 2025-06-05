@@ -1,6 +1,5 @@
 package com.eazybytes.java8.staticmethods;
 
-
 public class B implements A {
     public static void sayHello() {
         System.out.println("Hi, this is a static method inside class B");
@@ -10,7 +9,7 @@ public class B implements A {
         // B b = new B();
         // b.sayHello();
         // B.sayHello();
-         A.sayHello();
+        A.sayHello();
         B b = new B();
         b.sayHello();
         B.sayHello();
