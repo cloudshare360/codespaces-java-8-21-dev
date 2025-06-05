@@ -11,6 +11,10 @@ public class B implements A {
         // b.sayHello();
         // B.sayHello();
          A.sayHello();
+        B b = new B();
+        b.sayHello();
+        B.sayHello();
+        A.sayHello();
 
     }
 }
