@@ -9,5 +9,8 @@
     "cSpell.words": [
         "defaultmethods",
         "eazybytes"
-    ]
+    ],
+    "code-runner.executorMap": {
+    "java": "cd $workspaceRoot && javac -d bin -cp $workspaceRoot/bin:$workspaceRoot/lib/* src/$relativeFile && java -cp $workspaceRoot/bin:$workspaceRoot/lib/* ${relativeFileDir//\\//.}.$fileNameWithoutExt"
+  }
 }

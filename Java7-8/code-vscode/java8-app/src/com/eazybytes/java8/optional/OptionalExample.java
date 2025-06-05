@@ -6,8 +6,8 @@ import java.util.Optional;
 public class OptionalExample {
 
 	public static void main(String args[]) {
-		beforeJava8();
-		// withJava8();
+		//beforeJava8();
+		withJava8();
 	}
 
 	public static void beforeJava8() {
@@ -63,7 +63,7 @@ public class OptionalExample {
 		System.out.println(country.orElse("No Country data available"));
 		System.out.println(emptyCountry.orElse("No Country data available"));
 		System.out.println(emptyCountry.orElseGet(() -> "No Country data available"));
-		System.out.println(emptyCountry.orElseThrow(NoSuchElementException::new));
+		//System.out.println(emptyCountry.orElseThrow(NoSuchElementException::new));
 
 		/*
 		 * country.ifPresentOrElse(value -> System.out.println("Value is present, its: "

@@ -1,0 +1,113 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.App",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "BiFunctionalExamples",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.BiFunctionalExamples",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "BinaryOperatorExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.BinaryOperatorExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "ConsumerExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.ConsumerExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "FunctionExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.FunctionExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "MethodReference",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.MethodReference",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "PredicateExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.PredicateExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveFunctionsExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.PrimitiveFunctionsExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "StaticMain",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.StaticMain",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "SupplierExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.SupplierExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "UnaryOperatorExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.UnaryOperatorExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "Honda",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.defaultmethods.Honda",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "OptionalExample",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.optional.OptionalExample",
+            "projectName": "java8-app_fb12e61"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "com.eazybytes.java8.staticmethods.B",
+            "projectName": "java8-app_fb12e61"
+        }
+    ]
+}
