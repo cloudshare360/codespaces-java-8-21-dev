@@ -6,14 +6,16 @@ import java.util.Optional;
 public class OptionalExample {
 
 	public static void main(String args[]) {
-		//beforeJava8();
-		withJava8();
+		beforeJava8();
+		//withJava8();
 	}
 
 	public static void beforeJava8() {
+		System.out.println("In Optional Example");
+		
 		String[] str = new String[10];
-		String lowercaseString = str[5].toLowerCase();
-		System.out.print(lowercaseString);
+		//String lowercaseString = str[5].toLowerCase();
+		//System.out.print(lowercaseString);
 	}
 
 	public static void withJava8() {
