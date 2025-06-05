@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "java8-maven-app"
+        },
+        {
+            "type": "java",
             "name": "OptionalExample",
             "request": "launch",
             "mainClass": "com.eazybytes.java8.optional.OptionalExample",
